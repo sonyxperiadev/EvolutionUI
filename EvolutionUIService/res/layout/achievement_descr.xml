@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="10dp"
+  >
+  <ImageView
+    android:id="@+id/ach_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ach_unknown"
+    />
+  <TextView
+    android:id="@+id/ach_text"
+    android:text="Here comes the achievement description"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/ach_icon"/>
+</RelativeLayout>

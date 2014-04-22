@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/bgpanel"
+  android:layout_marginBottom="10dp"
+  >
+  <ImageView
+    android:id="@+id/feature_icon"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/feat_unknown"
+    android:layout_margin="5dp"
+    />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_toRightOf="@+id/feature_icon"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:id="@+id/feature_name"
+    android:text="Call log"
+    android:textSize="24sp"
+    />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+	<target name="javadoc">
+		<javadoc access="protected" author="true"
+			destdir="javadoc" nodeprecated="false" nodeprecatedlist="false"
+			noindex="false" nonavbar="false" notree="false"
+			packagenames="com.sonymobile.evolutionui,com.sonymobile.evolutionui.util"
+			source="1.6" sourcepath="src" splitindex="true" use="true"
+			version="true" />
+	</target>
+</project>

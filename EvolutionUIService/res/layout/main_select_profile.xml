@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/setupview_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/select_profile_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/select_profile"
+        android:textSize="24dp" />
+
+    <com.sonymobile.evolutionui.service.status.LevelSelector
+        android:id="@+id/select_profile_level"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/select_profile_expl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/level_expl_bg"
+        android:text="@string/profile_level_expl"
+        android:textSize="12dp" />
+
+    <com.sonymobile.evolutionui.service.status.SetupViewDivider
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/btnDynamicGrp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panel_bg" >
+
+        <ImageView
+            android:id="@+id/btnDynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/chkbox_big_checked" />
+
+        <TextView
+            android:id="@+id/dynamic_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btnDynamic"
+            android:text="@string/enable_achievements"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/dynamic_expl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dynamic_label"
+            android:layout_toRightOf="@+id/btnDynamic"
+            android:text="@string/dynamic_level_expl"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <com.sonymobile.evolutionui.service.status.SetupViewDivider
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

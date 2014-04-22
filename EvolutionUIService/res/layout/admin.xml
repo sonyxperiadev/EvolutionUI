@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="This is only for debugging and testing purposes, it won't be visible to the user at all."
+  />
+<Button
+  android:id="@+id/admin_reset"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Reset achievements, levels, features and xp"
+  />
+</LinearLayout>

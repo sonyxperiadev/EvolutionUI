@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EvolutionUI</string>
+
+    <string name="service_name">EvolutionUIService</string>
+    <string name="status_activity_name">Experience status</string>
+    <string name="select_profile_activity_name">Select profile...</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="evolutionux">EvolutionUX</string>
+    <string name="level_label">Level:</string>
+    <string name="xp_label">XP:</string>
+    <string name="rookie_plus">Rookie+</string>
+    <string name="new_achievements">New achievements:</string>
+    <string name="new_features">New unlocks:</string>
+    <string name="this_wont_be_visible_for_the_user">"This won't be visible for the user:"</string>
+    <string name="admin">-=[ Admin ]=-</string>
+    <string name="profile_level_expl">"You can choose how much functionality you want to see in your phone. If you are new to smart phones in general, you can start at the first level, where you will have minimal functionality, so it will be easier to use. When you feel comfortable, you can change the level up. Of course you can start with maximum level as well. "</string>
+    <string name="select_profile">Select profile:</string>
+    <string name="dynamic_level_expl">(When checked, the more you use the phone, the more features will be enabled . This way learning to use the phone is much easier, since you don’t need to learn everything at once, but step by step.)</string>
+    <string name="enable_achievements">Enable achievements</string>
+</resources>

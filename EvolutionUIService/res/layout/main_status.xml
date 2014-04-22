@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/setupview_bg"
+    android:orientation="vertical" >
+
+    <!-- Header controls -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="33dp"
+            android:text="@string/evolutionux"
+            android:textColor="#8cb85c"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <!-- Current level and xp -->
+    <include layout="@layout/cur_level_and_xp"/>
+
+    <com.sonymobile.evolutionui.service.status.SetupViewDivider
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- New achievements -->
+
+    <RelativeLayout
+        android:id="@+id/new_achievements"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:id="@+id/new_achievements_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="@string/new_achievements"
+            android:textSize="18dp" />
+
+        <Gallery
+            android:id="@+id/new_achievements_list"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/new_achievements_label" />
+
+        <com.sonymobile.evolutionui.service.status.SetupViewDivider
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_achievements_list" />
+    </RelativeLayout>
+
+    <!-- New features -->
+
+    <RelativeLayout
+        android:id="@+id/new_features"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:id="@+id/new_features_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="@string/new_features"
+            android:textSize="18sp" />
+
+        <Gallery
+            android:id="@+id/new_features_list"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/new_features_label" />
+
+        <com.sonymobile.evolutionui.service.status.SetupViewDivider
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_features_list" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:text="@string/this_wont_be_visible_for_the_user"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admin" />
+
+</LinearLayout>

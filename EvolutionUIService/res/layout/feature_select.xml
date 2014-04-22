@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="10dp"
+  android:orientation="vertical"
+  >
+  <TextView
+    android:text="Select feature to unlock"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    />
+  <LinearLayout
+    android:id="@+id/feature_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+  </LinearLayout>
+  <TextView
+    android:id="@+id/feature_descr"
+    android:text="Here comes the feature description"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>

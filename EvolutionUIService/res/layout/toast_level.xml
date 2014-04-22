@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/profile_bg"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="6dp" >
+
+    <TextView
+        android:id="@+id/level_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Level 1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/level_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/level_name"
+        android:text="You leveled up!"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Just a dummy value, to keep the res folder (for convenience) -->
+    <item type="integer" name="com_sonymobile_evolutionui_DUMMY">1</item>
+</resources>

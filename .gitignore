@@ -1,0 +1,7 @@
+bin
+gen
+*.class
+gfx/*.png
+semc-build-output
+.DS_Store
+javadoc

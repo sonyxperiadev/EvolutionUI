@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+  <!-- Levels -->
+  <level num="0" trigger="0" dummy="true" />
+  <level num="1" trigger="0" />
+  <level num="2" trigger="100" />
+  <level num="3" trigger="250" />
+  <level num="4" trigger="500" />
+  <level num="5" trigger="1000" />
+
+</data>
