@@ -15,3 +15,7 @@ We created a service, which keeps track of the phone usage, for example how many
 
 The project’s title – EvolutionUI – also refers to this process: the user starts with a very simple-to-use phone, which slowly evolves into a really powerful and personal smartphone.
 
+Example
+-------
+
+To see an example on how to use the service from your application, just head over to https://github.com/sonyxperiadev/android_packages_apps_Launcher3
