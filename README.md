@@ -19,3 +19,8 @@ Example
 -------
 
 To see an example on how to use the service from your application, just head over to https://github.com/sonyxperiadev/android_packages_apps_Launcher3
+
+Links
+-----
+
+For more information, please check our [wiki page](https://github.com/sonyxperiadev/EvolutionUI/wiki).
